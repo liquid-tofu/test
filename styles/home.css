@@ -1,0 +1,47 @@
+body {
+  background-color: #f9f9f9;
+}
+@font-face {
+  font-family: 'Lexend';
+  src: url('/../resources/Lexend/Lexend-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+h1 {
+  font-family: 'Lexend';
+}
+#nav-con {
+  border: 1px solid rgba(127, 127, 127, .3);
+  margin-top: 100px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
+}
+@media (max-height: 460px) {
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  #nav-con {
+    margin-top: 0;
+  }
+}
+.nav {
+  background-color: #fff;
+}
+.nav a {
+  border-radius: 5px;
+  border: 1px solid rgba(127, 127, 127, .3);
+  width: 130px;
+  color: #0956d2ff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
+  transition: 0.2s ease;
+}
+
+.nav a:hover {
+  transform: translateY(-3px);
+  background-color: #000;
+  color: #fff;
+  text-shadow: 0 0 5px #fff;
+}

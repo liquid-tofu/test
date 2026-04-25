@@ -1,0 +1,143 @@
+@font-face {
+  font-family: 'Noto Sans';
+  src: url('../resources/Noto_Sans/NotoSans-VariableFont_wdth,wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Google Sans Flex';
+  src: url('../resources/Google_Sans_Flex/GoogleSansFlex-VariableFont_GRAD,ROND,opsz,slnt,wdth,wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+}
+body * {
+  font-family: 'Noto Sans';
+  font-size: 16px;
+}
+.page-wrapper {
+  overflow-x: auto;
+  min-width: 100%;
+}
+#tbl-con {
+  border: 1px solid rgba(127, 127, 127, .3);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
+  padding: 30px;
+  min-width: 700px;
+}
+#title h2 {
+  font-size: 26px;
+}
+#tbl-con fieldset {
+  position: relative;
+  border: 1px solid rgba(127, 127, 127, .3);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
+  padding: 20px;
+}
+#tbl-con fieldset legend {
+  font-size: 16px;
+  font-weight: 500;
+  width: fit-content;
+  background-color: #fff;
+}
+
+#search-sec * {
+  font-family: 'Google Sans Flex';
+}
+#search-sec div {
+  position: relative;
+  display: inline-flex;
+}
+#search-bar:hover {
+  border: 1px solid #000;
+}
+#clear {
+  position: absolute;
+  right: 45px;
+  width: fit-content;
+}
+#search {
+  position: absolute;
+  right: 0;
+  height: 37.5px;
+  color: #fff;
+  background-color: #000;
+  border-radius: 0 5px 5px 0;
+}
+#search-bar {
+  width: 300px;
+  padding-right: 110px;
+}
+#clear:focus {
+  outline: none;
+  border: none;
+}
+
+#table thead th {
+  background-color: #1e3a5f;
+  color: #fff;
+}
+#table thead th, #table tbody td {
+  border: 1px solid #000;
+}
+
+#down-btn * {
+  font-size: 14px;
+}
+#down-btn {
+  margin-top: -15px;
+  margin-bottom: 12px;
+}
+#down-btn a:first-child,
+#down-btn a:last-child {
+  text-decoration: none;
+  background-color: #000;
+  color: #fff;
+  padding: 4px 11px;
+  border-radius: 5px;
+  transition: 0.2s ease;
+}
+#down-btn a:last-child {
+  background-color: #198754;
+}
+#down-btn a:first-child:hover,
+#down-btn a:last-child:hover {
+  transform: translateY(-3px);
+  opacity: 0.8;
+}
+
+.popup-message {
+  font-size: 14px;
+  position: fixed;
+  top: 25px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #444;
+  color: white;
+  padding: 6px 16px;
+  border-radius: 6px;
+  animation: fadeOut 3s forwards;
+  z-index: 1000;
+}
+@keyframes fadeOut {
+  0%   { opacity: 1; }
+  70%  { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+#pay-report-sub {
+  position: relative;
+  background-color: #000;
+  color: #fff;
+  transition: 0.2s ease;
+}
+#pay-report-sub:hover {
+  animation: glitch 0.3s infinite;
+}
+@keyframes glitch {
+  0%   { transform: translate(0); }
+  20%  { transform: translate(-2px, 2px); color: red; }
+  40%  { transform: translate(2px, -2px); color: cyan; }
+  60%  { transform: translate(-2px, -2px); color: red; }
+  80%  { transform: translate(2px, 2px); color: cyan; }
+  100% { transform: translate(0); }
+}
