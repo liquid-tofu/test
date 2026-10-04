@@ -1,0 +1,608 @@
+{
+  "projects": [
+    {
+      "id": "proj-1",
+      "name": "Cloud Infrastructure & Real-Time Sync Engine",
+      "description": "Architecting distributed websocket cluster, database migrations, and low-latency delta replication.",
+      "color": "#3b82f6",
+      "category": "Backend & Cloud",
+      "deadline": "2026-10-17",
+      "budgetHours": 120,
+      "createdAt": 1790180554224,
+      "updatedAt": 1791044554224
+    },
+    {
+      "id": "proj-2",
+      "name": "Mobile App 2.0 & Cross-Device Sync",
+      "description": "Building native multi-platform client with offline-first local cache and push notifications.",
+      "color": "#10b981",
+      "category": "Product & Mobile",
+      "deadline": "2026-10-24",
+      "budgetHours": 90,
+      "createdAt": 1790353354224,
+      "updatedAt": 1791044554224
+    },
+    {
+      "id": "proj-3",
+      "name": "Enterprise Security & SOC2 Compliance",
+      "description": "End-to-end encryption audit, role-based access controls, and compliance reporting engine.",
+      "color": "#8b5cf6",
+      "category": "Security & DevOps",
+      "deadline": "2026-10-10",
+      "budgetHours": 65,
+      "createdAt": 1790612554224,
+      "updatedAt": 1791044554224
+    },
+    {
+      "name": "Micropropagation Project Workflow",
+      "description": "",
+      "color": "#10b981",
+      "category": "Backend & Cloud",
+      "deadline": "2026-12-31",
+      "budgetHours": 80,
+      "id": "proj-1791044837667-8h92",
+      "createdAt": 1791044837667,
+      "updatedAt": 1791044837667
+    }
+  ],
+  "tasks": [
+    {
+      "projectId": "proj-1791044837667-8h92",
+      "title": "ស្រារជ្រាវឯកសារពាក់ព័ន្ធ",
+      "description": "",
+      "status": "todo",
+      "priority": "high",
+      "assignee": "Seng Sonita",
+      "startDate": "2026-10-04",
+      "dueDate": "2026-10-12",
+      "estimatedHours": 4,
+      "tags": [
+        "Feature"
+      ],
+      "subtasks": [
+        {
+          "id": "sub-1791045054571-ystb",
+          "title": "របៀបកាត់រុក្ខជាតិ",
+          "completed": true
+        },
+        {
+          "id": "sub-1791045072277-vuiv",
+          "title": "របៀបធ្វើ Medium",
+          "completed": false
+        }
+      ],
+      "comments": [],
+      "id": "task-1791045073161-e4kh",
+      "order": 0,
+      "createdAt": 1791045073161,
+      "updatedAt": 1791045171864,
+      "completedAt": 1791045110216
+    },
+    {
+      "id": "task-201",
+      "projectId": "proj-2",
+      "title": "Design high-density executive analytics charts",
+      "description": "Create multi-dimensional visual charts for team workload distribution, velocity, and project status.",
+      "status": "in_progress",
+      "priority": "high",
+      "assignee": "Elena Rostova",
+      "startDate": "2026-10-01",
+      "dueDate": "2026-10-06",
+      "tags": [
+        "UI/UX",
+        "Charts",
+        "DataVis"
+      ],
+      "estimatedHours": 14,
+      "subtasks": [
+        {
+          "id": "sub-8",
+          "title": "Design stacked workload distribution bar",
+          "completed": true
+        },
+        {
+          "id": "sub-9",
+          "title": "Add task status donut breakdown with percentages",
+          "completed": true
+        },
+        {
+          "id": "sub-10",
+          "title": "Implement responsive SVG tooltips and legends",
+          "completed": false
+        }
+      ],
+      "comments": [
+        {
+          "id": "c-3",
+          "authorId": "usr-2",
+          "authorName": "Elena Rostova",
+          "authorAvatarColor": "#10b981",
+          "text": "Color palette aligned with modern design system. Contrast ratios pass WCAG AA.",
+          "createdAt": 1791026554224
+        }
+      ],
+      "order": 0,
+      "createdAt": 1790785354224,
+      "updatedAt": 1791044554224
+    },
+    {
+      "id": "task-202",
+      "projectId": "proj-2",
+      "title": "Generate multi-sheet Excel & vector PDF report export",
+      "description": "Export structured workbook with Actions, Team Workload, and Subtasks sheets without external dependencies.",
+      "status": "review",
+      "priority": "urgent",
+      "assignee": "Savin Ngoeurm",
+      "startDate": "2026-09-29",
+      "dueDate": "2026-10-04",
+      "tags": [
+        "Reporting",
+        "Export",
+        "Excel",
+        "PDF"
+      ],
+      "estimatedHours": 12,
+      "subtasks": [
+        {
+          "id": "sub-11",
+          "title": "Build OpenXML ZIP store generator",
+          "completed": true
+        },
+        {
+          "id": "sub-12",
+          "title": "Format PDF executive summary with KPIs",
+          "completed": true
+        },
+        {
+          "id": "sub-13",
+          "title": "Support Unicode & multi-language scripts",
+          "completed": true
+        }
+      ],
+      "comments": [],
+      "order": 1,
+      "createdAt": 1790871754224,
+      "updatedAt": 1791037354224
+    },
+    {
+      "id": "task-203",
+      "projectId": "proj-2",
+      "title": "Touch-optimized Kanban drag-and-drop for mobile devices",
+      "description": "Enable smooth card dragging across columns on iPad, tablet, and mobile screens.",
+      "status": "backlog",
+      "priority": "medium",
+      "assignee": "Elena Rostova",
+      "startDate": "2026-10-04",
+      "dueDate": "2026-10-11",
+      "tags": [
+        "Mobile",
+        "Gestures",
+        "Kanban"
+      ],
+      "estimatedHours": 10,
+      "subtasks": [],
+      "comments": [],
+      "order": 2,
+      "createdAt": 1790871754224,
+      "updatedAt": 1791044554224
+    },
+    {
+      "id": "task-301",
+      "projectId": "proj-3",
+      "title": "Audit role-based permissions & collaborator invites",
+      "description": "Review access rules for project team members and viewer guest accounts.",
+      "status": "in_progress",
+      "priority": "high",
+      "assignee": "Priya Sharma",
+      "startDate": "2026-09-30",
+      "dueDate": "2026-10-07",
+      "tags": [
+        "Security",
+        "Compliance",
+        "Audit"
+      ],
+      "estimatedHours": 10,
+      "subtasks": [
+        {
+          "id": "sub-14",
+          "title": "Review member permission tiers",
+          "completed": true
+        },
+        {
+          "id": "sub-15",
+          "title": "Verify sanitized inputs for all API endpoints",
+          "completed": false
+        }
+      ],
+      "comments": [],
+      "order": 0,
+      "createdAt": 1790698954224,
+      "updatedAt": 1791044554224
+    },
+    {
+      "id": "task-302",
+      "projectId": "proj-3",
+      "title": "Generate quarterly SOC2 audit compliance matrix",
+      "description": "Compile task audit logs into compliance evidence package for auditors.",
+      "status": "done",
+      "priority": "urgent",
+      "assignee": "Priya Sharma",
+      "startDate": "2026-09-27",
+      "dueDate": "2026-10-01",
+      "tags": [
+        "Compliance",
+        "Audit",
+        "SOC2"
+      ],
+      "estimatedHours": 15,
+      "subtasks": [
+        {
+          "id": "sub-16",
+          "title": "Collect automated activity logs",
+          "completed": true
+        },
+        {
+          "id": "sub-17",
+          "title": "Sign off with executive security officer",
+          "completed": true
+        }
+      ],
+      "comments": [],
+      "order": 1,
+      "createdAt": 1790526154224,
+      "updatedAt": 1790958154224,
+      "completedAt": 1790958154224
+    }
+  ],
+  "activities": [
+    {
+      "id": "act-1791045171864",
+      "userId": "usr-1",
+      "userName": "Savin Ngoeurm",
+      "userColor": "#3b82f6",
+      "action": "updated",
+      "targetType": "task",
+      "targetTitle": "ស្រារជ្រាវឯកសារពាក់ព័ន្ធ",
+      "details": "Task details updated",
+      "timestamp": 1791045171864
+    },
+    {
+      "id": "act-1791045169570",
+      "userId": "usr-1",
+      "userName": "Savin Ngoeurm",
+      "userColor": "#3b82f6",
+      "action": "updated",
+      "targetType": "task",
+      "targetTitle": "ស្រារជ្រាវឯកសារពាក់ព័ន្ធ",
+      "details": "Task details updated",
+      "timestamp": 1791045169570
+    },
+    {
+      "id": "act-1791045119800",
+      "userId": "usr-1",
+      "userName": "Savin Ngoeurm",
+      "userColor": "#3b82f6",
+      "action": "status_changed",
+      "targetType": "task",
+      "targetTitle": "ស្រារជ្រាវឯកសារពាក់ព័ន្ធ",
+      "details": "Status updated to TODO",
+      "timestamp": 1791045119800
+    },
+    {
+      "id": "act-1791045110216",
+      "userId": "usr-1",
+      "userName": "Savin Ngoeurm",
+      "userColor": "#3b82f6",
+      "action": "status_changed",
+      "targetType": "task",
+      "targetTitle": "ស្រារជ្រាវឯកសារពាក់ព័ន្ធ",
+      "details": "Status updated to DONE",
+      "timestamp": 1791045110216
+    },
+    {
+      "id": "act-1791045100321",
+      "userId": "usr-1",
+      "userName": "Savin Ngoeurm",
+      "userColor": "#3b82f6",
+      "action": "updated",
+      "targetType": "task",
+      "targetTitle": "ស្រារជ្រាវឯកសារពាក់ព័ន្ធ",
+      "details": "Task details updated",
+      "timestamp": 1791045100321
+    },
+    {
+      "id": "act-1791045098666",
+      "userId": "usr-1",
+      "userName": "Savin Ngoeurm",
+      "userColor": "#3b82f6",
+      "action": "updated",
+      "targetType": "task",
+      "targetTitle": "ស្រារជ្រាវឯកសារពាក់ព័ន្ធ",
+      "details": "Task details updated",
+      "timestamp": 1791045098666
+    },
+    {
+      "id": "act-1791045095216",
+      "userId": "usr-1",
+      "userName": "Savin Ngoeurm",
+      "userColor": "#3b82f6",
+      "action": "status_changed",
+      "targetType": "task",
+      "targetTitle": "ស្រារជ្រាវឯកសារពាក់ព័ន្ធ",
+      "details": "Status updated to TODO",
+      "timestamp": 1791045095216
+    },
+    {
+      "id": "act-1791045094544",
+      "userId": "usr-1",
+      "userName": "Savin Ngoeurm",
+      "userColor": "#3b82f6",
+      "action": "status_changed",
+      "targetType": "task",
+      "targetTitle": "ស្រារជ្រាវឯកសារពាក់ព័ន្ធ",
+      "details": "Status updated to DONE",
+      "timestamp": 1791045094544
+    },
+    {
+      "id": "act-1791045090905",
+      "userId": "usr-1",
+      "userName": "Savin Ngoeurm",
+      "userColor": "#3b82f6",
+      "action": "updated",
+      "targetType": "task",
+      "targetTitle": "ស្រារជ្រាវឯកសារពាក់ព័ន្ធ",
+      "details": "Task details updated",
+      "timestamp": 1791045090905
+    },
+    {
+      "id": "act-1791045073161",
+      "userId": "usr-1",
+      "userName": "Savin Ngoeurm",
+      "userColor": "#3b82f6",
+      "action": "created",
+      "targetType": "task",
+      "targetTitle": "ស្រារជ្រាវឯកសារពាក់ព័ន្ធ",
+      "details": "Created in Micropropagation Project Workflow",
+      "timestamp": 1791045073161
+    },
+    {
+      "id": "act-1791044973442",
+      "userId": "usr-1791044937060-e6l1",
+      "userName": "Keo Sreymich",
+      "userColor": "#3b82f6",
+      "action": "created",
+      "targetType": "project",
+      "targetTitle": "Chhin Davan",
+      "details": "Added new teammate Chhin Davan (Teammate)",
+      "timestamp": 1791044973442
+    },
+    {
+      "id": "act-1791044937060",
+      "userId": "usr-1791044892001-txro",
+      "userName": "Seng Sonita",
+      "userColor": "#3b82f6",
+      "action": "created",
+      "targetType": "project",
+      "targetTitle": "Keo Sreymich",
+      "details": "Added new teammate Keo Sreymich (Teammate)",
+      "timestamp": 1791044937060
+    },
+    {
+      "id": "act-1791044892001",
+      "userId": "usr-3",
+      "userName": "Marcus Chen",
+      "userColor": "#8b5cf6",
+      "action": "created",
+      "targetType": "project",
+      "targetTitle": "Seng Sonita",
+      "details": "Added new teammate Seng Sonita (Teammates)",
+      "timestamp": 1791044892001
+    },
+    {
+      "id": "act-1791044837667",
+      "userId": "usr-3",
+      "userName": "Marcus Chen",
+      "userColor": "#8b5cf6",
+      "action": "created",
+      "targetType": "project",
+      "targetTitle": "Micropropagation Project Workflow",
+      "timestamp": 1791044837667
+    },
+    {
+      "id": "act-1791044716544",
+      "userId": "usr-1",
+      "userName": "Savin Ngoeurm",
+      "userColor": "#3b82f6",
+      "action": "deleted",
+      "targetType": "task",
+      "targetTitle": "Configure automated telemetry & connection health monitor",
+      "timestamp": 1791044716544
+    },
+    {
+      "id": "act-1791044713932",
+      "userId": "usr-1",
+      "userName": "Savin Ngoeurm",
+      "userColor": "#3b82f6",
+      "action": "deleted",
+      "targetType": "task",
+      "targetTitle": "Build automated disk snapshot & cloud persistence",
+      "timestamp": 1791044713932
+    },
+    {
+      "id": "act-1791044709923",
+      "userId": "usr-1",
+      "userName": "Savin Ngoeurm",
+      "userColor": "#3b82f6",
+      "action": "deleted",
+      "targetType": "task",
+      "targetTitle": "Implement WebSocket delta replication protocol",
+      "timestamp": 1791044709923
+    },
+    {
+      "id": "act-1791044606832",
+      "userId": "usr-2",
+      "userName": "Elena Rostova",
+      "userColor": "#10b981",
+      "action": "status_changed",
+      "targetType": "task",
+      "targetTitle": "Implement WebSocket delta replication protocol",
+      "details": "Simulated live update by Elena Rostova: marked as IN_PROGRESS",
+      "timestamp": 1791044606832
+    },
+    {
+      "id": "act-1791044605680",
+      "userId": "usr-2",
+      "userName": "Elena Rostova",
+      "userColor": "#10b981",
+      "action": "status_changed",
+      "targetType": "task",
+      "targetTitle": "Implement WebSocket delta replication protocol",
+      "details": "Simulated live update by Elena Rostova: marked as IN_PROGRESS",
+      "timestamp": 1791044605680
+    },
+    {
+      "id": "act-1791044605408",
+      "userId": "usr-2",
+      "userName": "Elena Rostova",
+      "userColor": "#10b981",
+      "action": "status_changed",
+      "targetType": "task",
+      "targetTitle": "Implement WebSocket delta replication protocol",
+      "details": "Simulated live update by Elena Rostova: marked as IN_PROGRESS",
+      "timestamp": 1791044605408
+    },
+    {
+      "id": "act-1791044603889",
+      "userId": "usr-2",
+      "userName": "Elena Rostova",
+      "userColor": "#10b981",
+      "action": "status_changed",
+      "targetType": "task",
+      "targetTitle": "Implement WebSocket delta replication protocol",
+      "details": "Simulated live update by Elena Rostova: marked as IN_PROGRESS",
+      "timestamp": 1791044603889
+    },
+    {
+      "id": "act-1791044599968",
+      "userId": "usr-1",
+      "userName": "Savin Ngoeurm",
+      "userColor": "#3b82f6",
+      "action": "status_changed",
+      "targetType": "task",
+      "targetTitle": "Configure automated telemetry & connection health monitor",
+      "details": "Status updated to DONE",
+      "timestamp": 1791044599968
+    },
+    {
+      "id": "act-1791044598264",
+      "userId": "usr-1",
+      "userName": "Savin Ngoeurm",
+      "userColor": "#3b82f6",
+      "action": "status_changed",
+      "targetType": "task",
+      "targetTitle": "Implement WebSocket delta replication protocol",
+      "details": "Status updated to DONE",
+      "timestamp": 1791044598264
+    },
+    {
+      "id": "act-1",
+      "userId": "usr-1",
+      "userName": "Savin Ngoeurm",
+      "userColor": "#3b82f6",
+      "action": "created",
+      "targetType": "task",
+      "targetTitle": "Implement WebSocket delta replication protocol",
+      "details": "Assigned to Savin Ngoeurm with urgent priority",
+      "timestamp": 1791030154224
+    },
+    {
+      "id": "act-2",
+      "userId": "usr-2",
+      "userName": "Elena Rostova",
+      "userColor": "#10b981",
+      "action": "updated",
+      "targetType": "task",
+      "targetTitle": "Design high-density executive analytics charts",
+      "details": "Completed subtask: Add task status donut breakdown",
+      "timestamp": 1791037354224
+    },
+    {
+      "id": "act-3",
+      "userId": "usr-3",
+      "userName": "Marcus Chen",
+      "userColor": "#8b5cf6",
+      "action": "status_changed",
+      "targetType": "task",
+      "targetTitle": "Build automated disk snapshot & cloud persistence",
+      "details": "Moved from In Progress to Done",
+      "timestamp": 1791040954224
+    }
+  ],
+  "teamMembers": [
+    {
+      "id": "usr-1",
+      "name": "Savin Ngoeurm",
+      "role": "Lead Architect",
+      "email": "savinngoeurm@gmail.com",
+      "avatarColor": "#3b82f6",
+      "device": "MacBook Pro"
+    },
+    {
+      "id": "usr-2",
+      "name": "Elena Rostova",
+      "role": "Senior Product Designer",
+      "email": "elena@syncteam.dev",
+      "avatarColor": "#10b981",
+      "device": "iPad Pro"
+    },
+    {
+      "id": "usr-3",
+      "name": "Marcus Chen",
+      "role": "Full Stack Engineer",
+      "email": "marcus@syncteam.dev",
+      "avatarColor": "#8b5cf6",
+      "device": "Linux Workstation"
+    },
+    {
+      "id": "usr-4",
+      "name": "Priya Sharma",
+      "role": "Technical Program Manager",
+      "email": "priya@syncteam.dev",
+      "avatarColor": "#f59e0b",
+      "device": "Pixel 9"
+    },
+    {
+      "id": "usr-5",
+      "name": "Liam O'Connor",
+      "role": "DevOps & Cloud Specialist",
+      "email": "liam@syncteam.dev",
+      "avatarColor": "#ec4899",
+      "device": "Windows Desktop"
+    },
+    {
+      "name": "Seng Sonita",
+      "role": "Teammates",
+      "email": "seng.sonita@syncteam.dev",
+      "avatarColor": "#3b82f6",
+      "device": "Windows Workstation",
+      "id": "usr-1791044892001-txro"
+    },
+    {
+      "name": "Keo Sreymich",
+      "role": "Teammate",
+      "email": "keo.sreymich@syncteam.dev",
+      "avatarColor": "#3b82f6",
+      "device": "Windows Workstation",
+      "id": "usr-1791044937060-e6l1"
+    },
+    {
+      "name": "Chhin Davan",
+      "role": "Teammate",
+      "email": "chhin.davan@syncteam.dev",
+      "avatarColor": "#3b82f6",
+      "device": "Windows Workstation",
+      "id": "usr-1791044973442-v8pl"
+    }
+  ],
+  "lastSync": 1791045171854
+}

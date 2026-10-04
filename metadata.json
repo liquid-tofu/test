@@ -1,0 +1,6 @@
+{
+  "name": "SyncTeam - Real-Time Collaborative Task & Project Management",
+  "description": "Full-stack real-time collaborative task management and cloud-synced project tracker for teams with live multi-device updates, workload analytics, and professional reporting.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

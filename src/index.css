@@ -1,0 +1,232 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    background-color: #020617;
+    color: #f8fafc;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+    transition: background-color 0.15s ease, color 0.15s ease;
+  }
+}
+
+/* ========================================================
+   HIGH-CONTRAST LIGHT MODE
+   ======================================================== */
+html.light body {
+  background-color: #f8fafc !important;
+  color: #0f172a !important;
+}
+
+/* Background surfaces */
+html.light .bg-slate-950 {
+  background-color: #f8fafc !important;
+  color: #0f172a !important;
+}
+
+html.light .bg-slate-950\/60,
+html.light .bg-slate-950\/70,
+html.light .bg-slate-950\/50,
+html.light .bg-slate-950\/40,
+html.light .bg-slate-950\/90 {
+  background-color: #f1f5f9 !important;
+}
+
+html.light .bg-slate-900 {
+  background-color: #ffffff !important;
+  color: #0f172a !important;
+}
+
+html.light .bg-slate-900\/90,
+html.light .bg-slate-900\/95,
+html.light .bg-slate-900\/80,
+html.light .bg-slate-900\/70 {
+  background-color: rgba(255, 255, 255, 0.98) !important;
+}
+
+html.light .bg-slate-800 {
+  background-color: #f1f5f9 !important;
+  color: #0f172a !important;
+}
+
+html.light .bg-slate-800\/90,
+html.light .bg-slate-800\/80,
+html.light .bg-slate-800\/70,
+html.light .bg-slate-800\/60,
+html.light .bg-slate-800\/50,
+html.light .bg-slate-800\/40,
+html.light .bg-slate-800\/30 {
+  background-color: #f8fafc !important;
+}
+
+/* Hover surfaces */
+html.light .hover\:bg-slate-800:hover,
+html.light .hover\:bg-slate-700:hover,
+html.light .hover\:bg-slate-800\/50:hover,
+html.light .hover\:bg-slate-800\/40:hover,
+html.light .hover\:bg-slate-800\/30:hover,
+html.light .hover\:bg-slate-700\/60:hover,
+html.light .hover\:bg-slate-700\/70:hover {
+  background-color: #e2e8f0 !important;
+}
+
+/* Borders with solid contrast */
+html.light .border-slate-800,
+html.light .border-slate-800\/80,
+html.light .border-slate-800\/60,
+html.light .border-slate-800\/50,
+html.light .border-slate-800\/40 {
+  border-color: #cbd5e1 !important;
+}
+
+html.light .border-slate-700,
+html.light .border-slate-700\/80,
+html.light .border-slate-700\/60,
+html.light .border-slate-700\/50 {
+  border-color: #94a3b8 !important;
+}
+
+html.light .border-slate-600 {
+  border-color: #64748b !important;
+}
+
+/* Typography on neutral backgrounds */
+html.light h1,
+html.light h2,
+html.light h3,
+html.light .text-slate-100,
+html.light .text-slate-200 {
+  color: #0f172a !important;
+}
+
+html.light .text-slate-300 {
+  color: #1e293b !important;
+}
+
+html.light .text-slate-400 {
+  color: #475569 !important; /* WCAG AAA compliant text on light background */
+}
+
+html.light .text-slate-500 {
+  color: #64748b !important;
+}
+
+/* Inputs, Selects and Textareas */
+html.light input,
+html.light select,
+html.light textarea {
+  background-color: #ffffff !important;
+  color: #0f172a !important;
+  border-color: #94a3b8 !important;
+}
+
+html.light input:focus,
+html.light select:focus,
+html.light textarea:focus {
+  border-color: #2563eb !important;
+  box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.2) !important;
+}
+
+html.light input::placeholder,
+html.light textarea::placeholder {
+  color: #64748b !important;
+}
+
+/* ========================================================
+   HIGH CONTRAST FOR COLORED BUTTONS & PILLS (TEXT REMAINS WHITE)
+   ======================================================== */
+html.light .bg-blue-600,
+html.light .bg-blue-500,
+html.light .bg-emerald-600,
+html.light .bg-emerald-500,
+html.light .bg-purple-600,
+html.light .bg-rose-600,
+html.light .bg-rose-500,
+html.light .bg-amber-600,
+html.light .bg-indigo-600,
+html.light button.bg-blue-600,
+html.light button.bg-blue-500,
+html.light button.bg-emerald-600,
+html.light button.bg-rose-600,
+html.light .bg-blue-600 *,
+html.light .bg-blue-500 *,
+html.light .bg-emerald-600 *,
+html.light .bg-purple-600 *,
+html.light .bg-rose-600 *,
+html.light .bg-rose-500 *,
+html.light .bg-indigo-600 *,
+html.light .group\/bar *,
+html.light [style*="background-color"]:not([style*="#fff"]):not([style*="#f8"]):not([style*="#f1"]) {
+  color: #ffffff !important;
+}
+
+/* High contrast badges in light mode */
+html.light .bg-blue-600\/20 {
+  background-color: #dbeafe !important;
+  color: #1e40af !important;
+  border-color: #93c5fd !important;
+}
+
+html.light .bg-emerald-600\/20,
+html.light .bg-emerald-950\/20,
+html.light .bg-emerald-950\/40,
+html.light .bg-emerald-950\/60 {
+  background-color: #d1fae5 !important;
+  color: #065f46 !important;
+  border-color: #6ee7b7 !important;
+}
+
+html.light .bg-rose-950\/20,
+html.light .bg-rose-950\/40,
+html.light .bg-rose-950\/50,
+html.light .bg-rose-950\/60 {
+  background-color: #ffe4e6 !important;
+  color: #9f1239 !important;
+  border-color: #fda4af !important;
+}
+
+html.light .bg-amber-950\/20,
+html.light .bg-amber-950\/40,
+html.light .bg-amber-950\/50 {
+  background-color: #fef3c7 !important;
+  color: #92400e !important;
+  border-color: #fcd34d !important;
+}
+
+html.light .bg-purple-950\/20,
+html.light .bg-purple-950\/40,
+html.light .bg-purple-950\/60 {
+  background-color: #f3e8ff !important;
+  color: #581c87 !important;
+  border-color: #d8b4fe !important;
+}
+
+/* Card elevation in light mode */
+html.light .bg-slate-900 {
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.08), 0 1px 2px -1px rgba(0, 0, 0, 0.05);
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0f172a;
+}
+::-webkit-scrollbar-thumb {
+  background: #334155;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #475569;
+}
+
+html.light ::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+html.light ::-webkit-scrollbar-thumb {
+  background: #94a3b8;
+}
+html.light ::-webkit-scrollbar-thumb:hover {
+  background: #64748b;
+}
